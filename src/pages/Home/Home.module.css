@@ -1,4 +1,4 @@
-.home{
+ .home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +32,6 @@
     width: 300px;
     height: 300px;
     border-radius: 100%;
-    background-image: url("https://www.tithink.com/wp-content/uploads/2018/09/ni%C3%B1os-programando-ventajas-tithink-sevilla.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .rightSide h2{
@@ -59,8 +55,33 @@
 }
 
 .leftSide p{
-    margin: 30px 0px 20px 0px;
-    width: 55%;
+    margin: 10px 0px 20px 0px;
+    width: 80%;
+}
+
+@media screen and (max-width: 850px){
+    .home{
+        flex-direction: column;
+    }
+
+    .rightSide{
+        margin-top: 50px;
+        border-bottom: 1px dashed #43B7F9;
+    }
+
+    .rightSide .img{
+        width: 60%;
+        height: 60%;
+    }
+
+    .rightSide p{
+        margin-bottom: 20px;
+    }
+
+    .leftSide{
+        margin-top: 50px;
+    }
+
 }
 
 

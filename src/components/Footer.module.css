@@ -13,3 +13,9 @@
     align-items: center;
     text-align: center;
 }
+
+@media screen and (max-width: 850px){
+    .footer{
+        margin-top: 150px;
+    }
+}

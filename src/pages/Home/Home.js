@@ -1,6 +1,7 @@
 import styles from "./Home.module.css"
 import React from 'react'
 import { useNavigate } from "react-router-dom"
+import img from "../../assets/thasyoPerfil.jpeg"
 
 const Home = () => {
 
@@ -9,7 +10,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.rightSide}>
-        <div className={styles.img}></div>
+        <img src={img} alt="Foto de Thasyo"  className={styles.img}/>
         <h2>Thasyo Peres</h2>
         <p>Desenvolvedor de Software</p>
       </div>
