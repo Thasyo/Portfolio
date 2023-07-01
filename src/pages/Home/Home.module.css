@@ -70,12 +70,12 @@
     }
 
     .rightSide .img{
-        width: 60%;
-        height: 60%;
+        width: 200px;
+        height: 200px;
     }
 
     .rightSide p{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .leftSide{

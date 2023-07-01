@@ -20,3 +20,9 @@
     border-radius: 10px;
     text-shadow: 0 1px 5px #43B7F9;
 }
+
+@media screen and (max-width: 850px){
+    .navbar{
+        display: none;
+    }
+}

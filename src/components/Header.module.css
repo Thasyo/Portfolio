@@ -21,8 +21,24 @@
     color: #fff;
 }
 
+.menu_responsive{
+    display: none;
+}
+
 @media screen and (max-width: 850px) {
     .header{
         margin-bottom: 60px;
+    }
+
+    .header div{
+        margin: 0;
+    }
+
+    .header div a{
+        padding-left: 20px;
+    }
+
+    .menu_responsive{
+        display: flex;
     }
 }
