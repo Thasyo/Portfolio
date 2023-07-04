@@ -30,10 +30,10 @@ const MenuResponsive = () => {
                     <FiX style={stylesMenuReponsive}/>
                 </span>
                 <nav className={styles.nav_menu_responsive}>
-                    <NavLink to="/" className={({isActive}) => (isActive ? styles.active : '')}>Página inicial</NavLink>
-                    <NavLink to="/about" className={({isActive}) => (isActive ? styles.active : '')}>Sobre</NavLink>
-                    <NavLink to="/projects" className={({isActive}) => (isActive ? styles.active : '')}>Projetos</NavLink>
-                    <NavLink to="/freelancer" className={({isActive}) => (isActive ? styles.active : '')}>Freelancer</NavLink>
+                    <NavLink to="/" className={({isActive}) => (isActive ? styles.active : '')} onClick={() => toogleMenu()}>Página inicial</NavLink>
+                    <NavLink to="/about" className={({isActive}) => (isActive ? styles.active : '')} onClick={() => toogleMenu()}>Sobre</NavLink>
+                    <NavLink to="/projects" className={({isActive}) => (isActive ? styles.active : '')} onClick={() => toogleMenu()}>Projetos</NavLink>
+                    <NavLink to="/freelancer" className={({isActive}) => (isActive ? styles.active : '')} onClick={() => toogleMenu()}>Freelancer</NavLink>
                 </nav>
             </div>
         </div>
