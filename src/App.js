@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 //components
 import Header from './components/Header';
-import Footer from './components/Footer';
 
 //pages
 import Home from './pages/Home/Home';
@@ -28,7 +27,6 @@ function App() {
             <Route path='/projects' element={<Projects/>}/>
             <Route path='/freelancer' element={<Freelancer/>}/>
           </Routes>
-          <Footer/>
         </BrowserRouter>
       </MenuProvider>
     </div>

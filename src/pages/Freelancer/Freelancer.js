@@ -5,20 +5,20 @@ import styles from './Freelancer.module.css'
 const Freelancer = () => {
   return (
     <>
-      <div>
+      <div className={styles.freelancer}>
 
         <div>
 
           <div>
-            <h1><span>#</span>Freelancer</h1>
+            <h1 className={styles.title}>Freelancer</h1>
           </div>
 
-          <div>
+          <div className={styles.description_title}>
             <ul>
-              <li><Icon icon="el:star"/>Tem um projeto e mente?</li>
-              <li><Icon icon="el:star"/>Quer colocá-lo em prática?</li>
-              <li><Icon icon="el:star"/>Quer tornar realidade os teus objetivos?</li>
-              <li><Icon icon="el:star"/>Entre em contato comigo!</li>
+              <li><Icon icon="el:star" className={styles.star}/><span>Tem um projeto em mente?</span></li>
+              <li><Icon icon="el:star" className={styles.star}/><span>Deseja colocá-lo em prática?</span></li>
+              <li><Icon icon="el:star" className={styles.star}/><span>Quer tornar real as tuas ideias?</span></li>
+              <li><Icon icon="el:star" className={styles.star}/><span>Entre em contato comigo!</span></li>
             </ul>
           </div>
 
@@ -27,13 +27,13 @@ const Freelancer = () => {
         <div>
 
           <div>
-            <h1>Meios de contato:</h1>
+            <h1 className={styles.title}>Meios de contato:</h1>
           </div>
 
-          <div>
-            <a href="https://www.instagram.com/thasyotp/" target='_blank'><Icon icon="skill-icons:instagram" /></a>
-            <a href="https://www.linkedin.com/in/thasyo-peres-63aa27235/" target='_blank'><Icon icon="skill-icons:linkedin" /></a>
-            <a href="mailto:thasyotp2002@gmail.com" target='_blank'><Icon icon="logos:google-gmail" /></a>
+          <div className={styles.contact_links}>
+            <a href="https://www.instagram.com/thasyotp/" target='_blank'><Icon icon="skill-icons:instagram" className={styles.icons_links}/></a>
+            <a href="https://www.linkedin.com/in/thasyo-peres-63aa27235/" target='_blank'><Icon icon="skill-icons:linkedin" className={styles.icons_links}/></a>
+            <a href="mailto:thasyotp2002@gmail.com" target='_blank'><Icon icon="logos:google-gmail" className={styles.icons_links}/></a>
           </div>
 
         </div>

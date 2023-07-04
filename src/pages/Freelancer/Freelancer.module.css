@@ -1,0 +1,47 @@
+.freelancer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.title{
+    padding-left: 10px;
+    border-left: 10px solid #43B7F9;
+}
+
+.description_title{
+    background-color: #d9d9d91f;
+    border-radius: 10px;
+    padding: 5px 0px;
+    width: 50%;
+}
+
+.description_title ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.description_title ul li{
+    padding: 5px;
+}
+
+.description_title ul li span{
+    
+}
+
+.star{
+    color: #43B7F9;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact_links{
+    display: flex;
+    margin: 20px;
+}
+
+.icons_links{
+    font-size: 50px;
+    margin: 0px 20px;
+}
