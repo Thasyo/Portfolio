@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
         <div>
-            <NavLink to="/">Thasyo.dev</NavLink>
+            <NavLink to="/">&lt;thasyo.dev/&gt;</NavLink>
         </div>
         <MenuResponsive/>
         <Navbar/>
