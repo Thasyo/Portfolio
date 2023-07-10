@@ -1,20 +1,75 @@
+.about{
+  margin-left: 50px;  
+}
+
+.profileAndHowKnewTheProgrammationWorld{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
 .rightSide{
-    width: 50vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;  
+}
   
-  .rightSide .img{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
+.rightSide .img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
   
-  .rightSide h2{
-    font-size: 1.5em;
-    margin-top: 20px;
-  }
+.rightSide h2{
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.rightSide p{
+  margin-top: 0;
+}
+
+.howKnewTheProgrammationWorld{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.title{
+  padding-left: 10px;
+  border-left: 10px solid #43B7F9;
+}
+
+.description_title{
+  background-color: #d9d9d91f;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 80%;
+}
+
+.description_title p{
+  line-height: 25px;
+  text-align: justify;
+}
+
+.description_title ul{
+  list-style: none;
+  padding-left: 10px;
+}
+
+.description_title ul li{
+  padding: 5px;
+}
+
+.star{
+  color: #43B7F9;
+  width: 20px;
+  margin-right: 10px;
+}
+
+
