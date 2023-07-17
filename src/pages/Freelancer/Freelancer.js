@@ -31,9 +31,9 @@ const Freelancer = () => {
           </div>
 
           <div className={styles.contact_links}>
-            <a href="https://www.instagram.com/thasyotp/" target='_blank'><Icon icon="skill-icons:instagram" className={styles.icons_links}/></a>
-            <a href="https://www.linkedin.com/in/thasyo-peres-63aa27235/" target='_blank'><Icon icon="skill-icons:linkedin" className={styles.icons_links}/></a>
-            <a href="mailto:thasyotp2002@gmail.com" target='_blank'><Icon icon="logos:google-gmail" className={styles.icons_links}/></a>
+            <a href="https://www.instagram.com/thasyotp/" target='_blank' rel="noreferrer"><Icon icon="skill-icons:instagram" className={styles.icons_links}/></a>
+            <a href="https://www.linkedin.com/in/thasyo-peres-63aa27235/" target='_blank' rel="noreferrer"><Icon icon="skill-icons:linkedin" className={styles.icons_links}/></a>
+            <a href="mailto:thasyotp2002@gmail.com" target='_blank' rel="noreferrer"><Icon icon="logos:google-gmail" className={styles.icons_links}/></a>
           </div>
 
         </div>

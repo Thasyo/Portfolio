@@ -25,9 +25,9 @@ const About = () => {
   ]
 
   const socialMediasImages = [
-    {id: 1, title: "instagram", image: instagram},
-    {id: 2, title: "linkedin", image: linkedin},
-    {id: 3, title: "github", image: github},
+    {id: 1, title: "instagram", image: instagram, link: "https://www.instagram.com/thasyotp/"},
+    {id: 2, title: "linkedin", image: linkedin, link: "https://www.linkedin.com/in/thasyo-peres-63aa27235/"},
+    {id: 3, title: "github", image: github, link: "https://github.com/Thasyo"},
   ]
 
   const navigate = useNavigate();
@@ -100,7 +100,7 @@ const About = () => {
         <div className={styles.description_socialMedia}>
           {socialMediasImages.map((techImage) => (
             <div>
-              <img key={techImage.id} src={techImage.image} alt={techImage.title}/>
+              <a href={techImage.link} target='_blank' rel="noreferrer"><img key={techImage.id} src={techImage.image} alt={techImage.title}/></a>
               <p>{techImage.title}</p>
             </div>
           ))}
