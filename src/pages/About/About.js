@@ -18,7 +18,7 @@ const About = () => {
   const hardSkillsImages = [
     {id: 1, title: "html", image: html},
     {id: 2, title: "css", image: css},
-    {id: 3, title: "js", image: js},
+    {id: 3, title: "javaScript", image: js},
     {id: 4, title: "react", image: reactJs},
     {id: 5, title: "node", image: nodeJs},
     {id: 6, title: "git", image: git},
@@ -80,9 +80,12 @@ const About = () => {
           <h1 className={styles.title}>Hard Skills - Habilidades técnicas</h1>
         </div>
 
-        <div>
+        <div className={styles.description_hardSkills}>
           {hardSkillsImages.map((techImage) => (
-            <img key={techImage.id} src={techImage.image} alt={techImage.title}/>
+            <div>
+              <img key={techImage.id} src={techImage.image} alt={techImage.title}/>
+              <p>{techImage.title}</p>
+            </div>
           ))}
         </div>
 
@@ -94,9 +97,12 @@ const About = () => {
           <h1 className={styles.title}>Redes Sociais</h1>
         </div>
 
-        <div>
+        <div className={styles.description_socialMedia}>
           {socialMediasImages.map((techImage) => (
-            <img key={techImage.id} src={techImage.image} alt={techImage.title}/>
+            <div>
+              <img key={techImage.id} src={techImage.image} alt={techImage.title}/>
+              <p>{techImage.title}</p>
+            </div>
           ))}
         </div>
 

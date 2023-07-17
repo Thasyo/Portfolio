@@ -41,3 +41,9 @@
     font-size: 50px;
     margin: 0px 20px;
 }
+
+.icons_links:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .5s;
+}
