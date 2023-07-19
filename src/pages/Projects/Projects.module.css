@@ -9,7 +9,7 @@
     margin: 50px 10px 50px 30px;
 }
 
-.carousel{
+.container{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -100,4 +100,25 @@
 
 .right_side .content_techs p{
     font-weight: bold;
+}
+
+@media screen and (max-width: 850px){
+
+    .container{
+        margin: 0 10px 20px 40px;
+        width: 70vw;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .right_side .content_description{
+        width: 100%;
+    }
+
+    .content_techs{
+        flex-wrap: wrap;
+    }
+
 }

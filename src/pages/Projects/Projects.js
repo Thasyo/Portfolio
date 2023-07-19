@@ -8,7 +8,7 @@ const Projects = () => {
 
       <h1 className={styles.title}>Projetos</h1>
 
-      <div className={styles.carousel} >
+      <div className={styles.container} >
 
         <div className={styles.item}>
 

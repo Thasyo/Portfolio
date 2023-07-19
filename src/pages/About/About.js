@@ -108,7 +108,7 @@ const About = () => {
 
       </div>
 
-      <div>
+      <div className={styles.knowWorks}>
 
         <div>
           <h1 className={styles.title}>Conheça os meus trabalhos</h1>

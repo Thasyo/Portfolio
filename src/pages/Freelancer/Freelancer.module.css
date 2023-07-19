@@ -1,7 +1,7 @@
 .freelancer{
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin-left: 30px;
     font-weight: bold;
 }
 
@@ -46,4 +46,12 @@
     cursor: pointer;
     transform: scale(1.05);
     transition: .5s;
+}
+
+@media screen and (max-width: 850px){
+
+    .description_title{
+        width: 80vw;
+    }
+
 }

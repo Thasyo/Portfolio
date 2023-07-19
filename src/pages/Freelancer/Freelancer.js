@@ -17,7 +17,7 @@ const Freelancer = () => {
             <ul>
               <li><Icon icon="el:star" className={styles.star}/><span>Tem um projeto em mente?</span></li>
               <li><Icon icon="el:star" className={styles.star}/><span>Deseja colocá-lo em prática?</span></li>
-              <li><Icon icon="el:star" className={styles.star}/><span>Quer tornar real as tuas ideias?</span></li>
+              <li><Icon icon="el:star" className={styles.star}/><span>Quer tornar realidade as tuas ideias?</span></li>
               <li><Icon icon="el:star" className={styles.star}/><span>Entre em contato comigo!</span></li>
             </ul>
           </div>
